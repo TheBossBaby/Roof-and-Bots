@@ -1,3 +1,23 @@
+<?php
+
+$servername ="localhost";
+$username = "root";
+$password = "";
+$dbname = "hackathon";
+
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+} 
+
+$sql = "SELECT * FROM products";
+
+$output = mysqli_query($conn,$sql);
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +34,7 @@
 
 <body>
     <div class="alert alert-secondary">
-        <h1>View Product List</h1>
+        <h1>Product List</h1>
     </div>
 
     <div>
@@ -25,16 +45,30 @@
                     <th scope="col">Product Id</th>
                     <th scope="col">Product Name</th>
                     <th scope="col">Quantity</th>
+                    <th scope="col">Location</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th scope="row"></th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-               
+                <?php
+
+                    if (mysqli_num_rows($output) > 0) {
+                      
+                      $p_number = 1;
+                      while($data = mysqli_fetch_assoc($output)) {
+                        echo "<tr>";
+                        echo "<td>".$p_number ."</td>";
+                        echo "<td>".$data['product_id']."</td>";
+                        echo "<td>".$data['product_name']."</td>";
+                        echo "<td>".$data['quantity']."</td>";
+                        echo "<td>".$data['product_location']."</td>";
+                        echo "</tr>";
+                        $p_number++;
+                      }
+                    }
+                    else{
+                        echo "No data Available";
+                    }
+                ?>
             </tbody>
         </table>
     </div>
