@@ -3,7 +3,7 @@
 Warehouse Automation targeting routing and picking points.<br/>
 ![alt text]( https://github.com/TheBossBaby/Roof-and-Bots/blob/master/Screenshots/main3.jpg)</br>
 
-
+[Click here for html view of page](http://htmlpreview.github.io/?https://github.com/TheBossBaby/Roof-and-Bots/blob/master/html%20views/Roof%20%26%20Bots.html) <br/> Try clicking "Why roof and bots" tab if you are unable to view page clearly. :relaxed:
 
 # Getting Started <br/>
 Warehouse automation is all about uncovering repetitive tasks and finding ways to automate them. Modern warehouses are full of cases – from manual data entry to picking, storing and shipping of goods done by hand.<br/>
@@ -52,12 +52,15 @@ To build a warehouse automation environment in which robot can learn from operat
 
 # Authors
 List of who participated in this project:<br/>
-Prashant K Tiwari [**Python Engineer, System Desiger**] <br/>
-Pranav Kushwaha [**Unity Game Developer**] <br/>
-Mayank Sahu [**Backend Developer**]<br/>
-Ishan Badhe [**Frontend Developer**]<br/>
-Prateek Bagre [**UI/UX**]<br/>
-Mitali Patle [**Web Designer**]<br/>
+
+| Name  | Contribution |
+| ------------- | ------------- |
+| Prashant K Tiwari  | **Python Engineer** |
+| Pranav Kushwaha  | **Unity Game Developer**  |
+| Mayank Sahu  | **Backend Developer**  |
+| Ishan Badhe  | **Frontend Developer**  |
+| Prateek Bagre  | **UI/UX Designer**  |
+| Mitali Patle  | **Web Designer**  |
 
 # Acknowledgments
 >We are living in future :rocket:<br/>
