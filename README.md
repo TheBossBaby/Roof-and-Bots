@@ -1,11 +1,11 @@
 # Roof & Bots
 ## "Project submitted in Smart India Hackathon 2019 Grand finale"<br/>
 Warehouse Automation targeting routing and picking points.<br/>
-![alt text]( https://github.com/TheBossBaby/Roof-and-Bots/blob/master/Screenshots/main3.jpg)
+![alt text]( https://github.com/TheBossBaby/Roof-and-Bots/blob/master/Screenshots/main3.jpg)</br>
 
 
 
-# Getting Started<br/>
+# Getting Started <br/>
 Warehouse automation is all about uncovering repetitive tasks and finding ways to automate them. Modern warehouses are full of cases – from manual data entry to picking, storing and shipping of goods done by hand.<br/>
 
 Manual operations go hand in hand with human errors resulting in delays, improper time and resource management, low productivity and margin. All this ultimately leads to unsatisfied business partners and customers.<br/>
@@ -47,8 +47,8 @@ To build a warehouse automation environment in which robot can learn from operat
 **Nodejs** : Backend</br>
 **Expressjs** : Frontend </br>
 **Unity** : Simulation Environment </br>
-**MongoDB** : Database
-**Python** : Deep reinforcement learning algorithm.<br/> [Click here to see the algo](https://drive.google.com/file/d/1kPYlhg4l7c6HhDrnt80c3tbKbp7SczwG/view?usp=sharing)  
+**MongoDB** : Database</br>
+**Python** : Deep reinforcement learning algorithm.<br/> [Click here to see the algo](https://drive.google.com/file/d/1kPYlhg4l7c6HhDrnt80c3tbKbp7SczwG/view?usp=sharing)  </br>
 
 # Authors
 List of who participated in this project:<br/>
