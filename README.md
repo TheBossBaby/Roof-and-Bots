@@ -42,6 +42,8 @@ Install Nodejs in your system and clone this repo
 
 # Objective
 To build a warehouse automation environment in which robot can learn from operator about routing and picking paths.<br/><br/>
+ Simulation stating from algorithm of object moving from one place to another. <br/>
+![Alt Text](https://github.com/TheBossBaby/Roof-and-Bots/blob/master/reinforcement.gif)
 
 # Built With
 **Nodejs** : Backend</br>
