@@ -57,7 +57,7 @@ List of who participated in this project:<br/>
 | ------------- | ------------- |
 | Prashant K Tiwari  | **Python Engineer** |
 | Pranav Kushwaha  | **Unity Game Developer**  |
-| Mayank Sahu  | **Backend Developer**  |
+| Mayank Sahu  | **Backend Developer , "Team Leader"**  |
 | Ishan Badhe  | **Frontend Developer**  |
 | Prateek Bagre  | **UI/UX Designer**  |
 | Mitali Patle  | **Web Designer**  |
