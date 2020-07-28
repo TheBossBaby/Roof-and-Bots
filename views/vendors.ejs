@@ -1,0 +1,225 @@
+<%-	include("partials/header")%>
+
+<section class="mt-5">
+	<div class="container">
+<div class="justify-content-center row">
+	<div class="col-md-10">
+	<h2 class="why-us"><span class="btm-border">Vendors</span></h2>
+<nav class="table-nav mt-5">
+  <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link table-heading active mx-3 py-3" id="nav-instock-tab" data-toggle="tab" href="#nav-instock" role="tab" aria-controls="nav-instock" aria-selected="true">In stock</a>
+    <a class="nav-item nav-link table-heading mx-3 py-3" id="nav-profile-tab" data-toggle="tab" href="#nav-requistion" role="tab" aria-controls="nav-requistion" aria-selected="false">Requistion List</a>
+    <a class="nav-item nav-link table-heading mx-3 py-3" id="nav-orders-tab" data-toggle="tab" href="#nav-orders" role="tab" aria-controls="nav-orders" aria-selected="false">Orders</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  
+  <div class="tab-pane fade show active shadow-lg p-3 mb-5 bg-white rounded" id="nav-instock" role="tabpanel" aria-labelledby="nav-instock-tab">
+  	<div class="table-responsive-md p-3">
+  	<table class="table table-hover table-light text-center">
+  <thead class="table-active">
+    <tr>
+      <th>STOCK NAME</th>
+      <th>IMAGE</th>
+      <th>QUANTITY</th>
+      <th>SELLING PRICE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mx Bulbs</td>
+      <td><img src="/images/bulb.png" alt="bulb" width="120" height="100"></td>
+      <td>13</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>Higsy Chairs</td>
+      <td><img src="/images/chair.png" alt="chair" width="120" height="100"></td>
+      <td>2</td>
+      <td>1100</td>
+    </tr>
+    <tr>
+      <td>A4 sheets</td>
+    	<td><img src="/images/sheets.png" alt="sheets" width="120" 	height="100"></td>
+      <td>42</td>
+      <td>70</td>
+    </tr>
+     <tr>
+      <td>Rz's Headphones</td>
+    <td><img src="/images/headphones.png" alt="headphone" width="120" height="100"></td>
+      <td>11</td>
+      <td>250</td>
+    </tr>
+  </tbody>
+</table>
+
+	</div>
+  </div>
+
+  <div class="tab-pane fade shadow-lg p-3 mb-5 bg-white rounded" id="nav-requistion" role="tabpanel" aria-labelledby="nav-requistion-tab">
+  	<div class="table-responsive-md p-3">
+  	<table class="table table-hover table-light text-center">
+  <thead class="table-active">
+    <tr>
+      <th>STOCK NAME</th>
+      <th>IMAGE</th>
+      <th>QUANTITY</th>
+      <th>RE-STOCK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mx Bulbs</td>
+      <td><img src="/images/bulb.png" alt="bulb" width="120" height="100"></td>
+      <td><input class="requisition-input" type="number" placeholder="0" min="0" max="50"></td>
+      <td><button class="btn">REQUISTION</button></td>
+    </tr>
+    <tr>
+      <td>Higsy Chairs</td>
+      <td><img src="/images/chair.png" alt="chair" width="120" height="100"></td>
+      <td><input class="requisition-input" type="number" placeholder="0" min="0" max="50"></td>
+      <td><button class="btn">REQUISTION</button></td>
+    </tr>
+    <tr>
+      <td>A4 sheets</td>
+    	<td><img src="/images/sheets.png" alt="sheets" width="120" 	height="100"></td>
+      <td><input class="requisition-input" type="number" placeholder="0" min="0" max="50"></td>
+      <td><button class="btn">REQUISTION</button></td>
+    </tr>
+     <tr>
+      <td>Rz's Headphones</td>
+    <td><img src="/images/headphones.png" alt="headphone" width="120" height="100"></td>
+       <td><input class="requisition-input" type="number" placeholder="0" min="0" max="50"></td>
+      <td><button class="btn">REQUISTION</button></td>
+    </tr>
+  </tbody>
+</table>
+
+	</div>
+  </div>
+
+  <div class="tab-pane fade shadow-lg p-3 mb-5 bg-white rounded" id="nav-orders" role="tabpanel" aria-labelledby="nav-orders-tab">
+  	
+  <div class="table-responsive-md p-3">
+  	<table class="table table-hover table-light text-center">
+  <thead class="table-active">
+    <tr>
+      <th>CUSTOMER NAME</th>
+      <th>LOCATION</th>
+      <th>CONTACT NO</th>
+      <th>ORDER DETAILS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Abhishek Ahirwar</td>
+      <td>Delhi</td>
+      <td>7999692495</td>
+      <td><button class="btn">VIEW DETAILS</button></td>
+    </tr>
+    <tr>
+      <td>Martina Shahji</td>
+      <td>Kanpur</td>
+      <td>8599492495</td>
+      <td><button class="btn">VIEW DETAILS</button></td>
+    </tr>
+    <tr>
+      <td>Nitin Kumar</td>
+      <td>Bihar</td>
+      <td>7981692497</td>
+      <td><button class="btn">VIEW DETAILS</button></td>
+    </tr>
+     <tr>
+      <td>Vipin Sharma</td>
+      <td>Indore</td>
+      <td>6939892491</td>
+      <td><button class="btn">VIEW DETAILS</button></td>
+    </tr>
+  </tbody>
+</table>
+
+	</div>
+
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="mt-5">
+	<div class="container">
+	<div class="row justify-content-center">
+		<div class="col-md-10 shadow-lg p-4 pb-5 mb-5 bg-white rounded">
+			<div class="row px-3">
+
+				<div class="col-md-5">
+			<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Enter a product" aria-label="Enter a product" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn search-btn" type="button" id="button-addon2">
+      <span class="material-icons">search</span>
+    </button>
+  </div>
+</div>
+</div>
+
+<div class="col-md-7">
+	<div class="input-group mb-3 justify-content-end">
+  <div class="input-group-prepend" id="button-addon3">
+    <button class="btn btn-stat-active date-btn" type="button">Monthly</button>
+    <button class="btn btn-stat date-btn" type="button">Yearly</button>
+  </div>
+</div>
+		</div>
+		</div>
+	
+	<div class="row justify-content-center">
+		<div class="col-md-9">
+            <h4 class="text-center m-3"><strong>MX BULBS</strong></h4>
+		    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+
+	</div>
+</div>
+	</div>
+	</div>
+</section>
+
+<%-	include("partials/footer")%>
+
+<script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      axisY: {
+        title: "Products Sold"
+      },
+      axisX: {
+        title: "Months"
+      },
+      data: [
+      {        
+        color: "#b2d732",
+        type: "column",  
+        dataPoints: [      
+        { x: 1, y: 90, label: "January"},
+        { x: 2, y: 120,  label: "February" },
+        { x: 3, y: 40,  label: "March"},
+        { x: 4, y: 80,  label: "April"},
+        { x: 5, y: 130,  label: "May"},
+        { x: 6, y: 70, label: "June"},
+        { x: 7, y: 30,  label: "July"},        
+        { x: 8, y: 100,  label: "August"},
+        { x: 9, y: 140,  label: "September"},
+        { x: 10, y: 50,  label: "October"},
+        { x: 11, y: 130,  label: "November"},
+        { x: 12, y: 160,  label: "Decemeber"}
+        ]
+      }
+      ]
+    });
+
+    chart.render();
+  }
+  </script>
+ 
